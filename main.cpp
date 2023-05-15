@@ -144,4 +144,4 @@ int main() {
         std::thread(start_session, std::move(socket)).detach();
     }
     return 0;
-}C:MinGWbing++.exe -std=c++11 -pthread -lboost_system -lboost_filesystem main.cpp -o server
+}
